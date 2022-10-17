@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html dir='rtl' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b'
+	xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="content-language" content="en">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="noindex">
+	<meta name="googlebot" content="noindex">
+	<title>Bein Sport 4HD 720P Live</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'
+		type="5868e920d7293614b808d71e-text/javascript"></script>
+	<link href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' />
+	<script type="text/javascript" src="//superfastcdn.com/script/bootstrap.js" zid="2557547" admn="dHJldmJxX3Bieg=="
+		admc="dHJhaHJxX3Bieg==" did="bBntO" data-cfasync="false" sp="/ts.php?q=su"></script>
+	<script type="5868e920d7293614b808d71e-text/javascript">
+		(function() {setTimeout(function(){if(!window["s2ss1016"]){let e=document.querySelector('script[did="bBntO"]'),t=!!e.hasAttribute("admc")&&function(e){let t=atob(e).replace(/[a-zA-Z]/g,function(e){var t=e<="Z"?65:97;return String.fromCharCode(t+(e.charCodeAt(0)-t+13)%26)});return t.replaceAll("_",".")}(e.getAttribute("admc")),r=e.getAttribute("src"),a=e.parentElement,c=document.createElement("script");!function(e,t){let r,a=["did","admc","src"],c=Array.prototype.slice.call(t.attributes);for(;r=c.pop();)-1===a.indexOf(r.nodeName)&&e.setAttribute(r.nodeName,r.nodeValue)}(c,e),c.src=(d=r,"//"+t+d.replace(/^.*\/\/[^\/]+/,"")),c.setAttribute("sadbl",1),a.removeChild(e),a.appendChild(c)}var d},150);document.body.addEventListener("click",function(e){window["s2ss1016ff"]instanceof Function&&window["s2ss1016ff"](e)});})();
+	</script>
+</head>
+<style type="text/css">
+	/*
+body { border-width: 0px; margin: 0px; padding: 0px; overflow: hidden; }
+*/
+	html {
+		height: 100%;
+	}
+
+	body {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+
+		margin: 0;
+	}
+
+	#vid {
+		width: 100vw;
+		height: 56.25vw;
+		max-height: 100vh;
+		max-width: 177.78vh;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+</style>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/gh/clappr/clappr@latest/dist/clappr.min.js"
+		type="5868e920d7293614b808d71e-text/javascript"></script>
+	<script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.js"
+		type="5868e920d7293614b808d71e-text/javascript"></script>
+	<script type="5868e920d7293614b808d71e-text/javascript"
+		src="//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+	<span id="player"></div>
+<script type="5868e920d7293614b808d71e-text/javascript">
+var playerElement = document.getElementById("player");
+var player = new Clappr.Player({
+    source: window.atob("aHR0cHM6Ly9zczI0aGQueHl6L2hscy9CZWluNEhELm0zdTg="),
+  mimeType: 'application/x-mpegURL',
+  autoPlay: 'false',
+  plugins: [LevelSelector],
+  height: '100%',
+  width: '100%',
+
+});
+player.attachTo(playerElement);
+
+</script>
+<script src="//ashcdn.com/script/suv4.js" data-adel="lwsu" cdnd="ashcdn.com" zid="2557547" type="5868e920d7293614b808d71e-text/javascript"></script>
+<script type="5868e920d7293614b808d71e-text/javascript">
+bool = false;
+var openedwin = false;
+var volumeSet = false;
+var loop = 0;
+    
+function getToVideo(e){
+    if(!openedwin){
+        window.open(popurl, '_blank');
+        openedwin = true;
+        popurltmp = popurl;
+        popurl = popurl2;
+        popurl2 = popurltmp;
+        $("#overlay").hide();
+        loop++;
+        if(loop == 1){
+            var timer=setTimeout(function(){
+                refreshdl();
+            },1000);
+        } else {
+          if(loop < 5){
+              var timer=setTimeout(function(){
+                  refreshdl();
+              },15000);
+          }
+        }
+        e.preventDefault();
+    }
+}
+
+$(document).on('touchend click', "#overlay", function(e) {
+    getToVideo(e);
+    if(!volumeSet && typeof player !== 'undefined'){
+      if(typeof player.version === 'undefined'){ //clappr
+        player.configure({hideMediaControl: "true"});
+      } else {
+        player.unmute();
+      }
+      player.setVolume(parseInt(pvolume));
+      volumeSet = true;
+      e.stopImmediatePropagation();
+    }
+});
+$(document).ready(function() {
+    if($.ads == undefined){
+      popurl = "";
+      //$("#site-contenedor .raulito").prop("src", "");
+    };
+    if(!isiOS && !isEdge){
+        $("body").append('<object data="data:application/pdf;base64,aG1t" width="1px" height="1px" style="position:absolute;top:-500px;left:-500px;visibility:hidden;" onerror="unsandbox();$(this).remove()"></object>');
+    }
+    if (!isInArray(hostname, whitelist)) {
+      vwu();
+      setInterval("vwu()", 300000);
+    }
+});
+
+function refreshdl(){
+    if(openedwin){
+        openedwin = false;
+        $("#overlay").show();
+    }
+}
+var timer=setTimeout(function(){
+    $('.close').fadeIn(300);
+},4000);
+  
+</script>
+<script type="5868e920d7293614b808d71e-text/javascript" language="javascript">
+        $(function() {
+            $(this).bind("contextmenu", function(e) {
+                e.preventDefault();
+            });
+        }); 
+</script>
+<div style="visibility:hidden">
+<script type="5868e920d7293614b808d71e-text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4289990,4,100,103,48,00011111']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5868e920d7293614b808d71e-|49" defer=""></script></body>
+</html>
